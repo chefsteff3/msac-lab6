@@ -17,4 +17,7 @@
 6. Check git status again, and paste the contents below.
 
         git status
+        C:\cisw17\my_repository>git status
+        On branch master
+        nothing to commit, working tree clean
 
