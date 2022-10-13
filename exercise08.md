@@ -15,6 +15,7 @@
 6. Does the following command return anything?
 
         git diff --staged
+        No
 
 7. Add one of your changed files to the index
 
@@ -22,8 +23,8 @@
 
 8. What do these commands show?
 
-        git diff
-        git diff --staged
+        git diff shows the modifications done to the file not added to staging
+        git diff --staged shows the modifications done to the staged file
 
 9. Add the other changed file to the index
 
@@ -31,8 +32,8 @@
 
 10. What do these commands show?
 
-        git diff
-        git diff --staged
+        git diff does not show anything
+        git diff --staged shows the modifications from both staged files
 
 11. Commit the changes
 
@@ -43,5 +44,6 @@
 14. Does the new untracked file show up in git diff?
 
         git diff
+        No
 
 15. Add and commit the new file
