@@ -13,6 +13,7 @@
         git config --global user.email "john.doe@somewebsite.com"
 
 4. Why did we use the `--global` flag?  (What does that do?)
+        We use global level configurations so that entries are user specific. These values are stored in a file located un the user's home directory.
 
 
 5. Check your git config to show the changes you have made
