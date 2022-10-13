@@ -17,6 +17,14 @@
 5. Look at git status
 
         git status
+        C:\cisw17\my_repository>git status
+        On branch master
+        Changes not staged for commit:
+        (use "git add <file>..." to update what will be committed)
+        (use "git restore <file>..." to discard changes in working directory)
+        modified:   fruits.txt
+
+        no changes added to commit (use "git add" and/or "git commit -a")
 
 6. Add the file to the index
 
@@ -25,6 +33,11 @@
 7. Check status
 
         git status
+        C:\cisw17\my_repository>git status
+        On branch master
+        Changes to be committed:
+        (use "git restore --staged <file>..." to unstage)
+                modified:   fruits.txt
 
 8. Commit the changes (short commit message included on command line)
 
@@ -33,10 +46,17 @@
 9. Check status
 
         git status
+        C:\cisw17\my_repository>git status
+        On branch master
+        nothing to commit, working tree clean
 
 10. Which of the steps could be omitted?
 
+        Checking the git status could potentially be omitted.
+
 11. Why might it be a bad idea to omit them?
+
+        You might not want to omit checking git status because you may miss committing items. Checking the git status is a safety check to ensure you don't forget anyting and your working tree is clear.
 
 12. Repeat the above steps to add a new file with the name `vegetables.txt`
 
